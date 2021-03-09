@@ -38,7 +38,7 @@ CREATE TABLE dept_manager(
 CREATE TABLE salaries(
     emp_no INT NOT NULL,
 	FOREIGN KEY (emp_no)REFERENCES employees(emp_no),
-    salary varchar(50) NOT NULL
+    salary INT NOT NULL
 );
 
 select * from departments;
@@ -48,4 +48,4 @@ select * from employees;
 select * from salaries;
 select * from titles;
 
-DROP TABLE departments
+
