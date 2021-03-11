@@ -8,6 +8,7 @@ The activity involved designing the table to hold the data in the CSVs into a SQ
 
 The CSV files were inspected and the ERD diagram was created using the quickdatabasediagrams tool. The ERD created is as shown below:
 
-![erd](QuickDBD-export.png)
+![erd](EmployeeSQL/QuickDBD-export.png)
 
 #### Data Engineering
+
